@@ -5,7 +5,7 @@
         color: black;
         font-family: 'Ubuntu Mono', monospace;
         font-size: 24px;
-        text-shadow: 2px 2px 2px #aaa;
+        //text-shadow: 2px 2px 2px #aaa;
     }
 }
 
@@ -16,5 +16,5 @@
         color: white;
   	font-family: 'Ubuntu Mono', monospace;
   	font-size: 24px;
-  	text-shadow: 2px 2px 2px #aaa;
+  	//text-shadow: 2px 2px 2px #aaa;
     }
