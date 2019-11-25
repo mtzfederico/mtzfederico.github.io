@@ -8,10 +8,10 @@ Name: <input type="text" id="myText" value="">
  <p id="text0"></p>
 <script>
 myFunction(){
-document.getElementById("text0").innerHTML = "Hello " + myText;
+ var x = document.getElementById("myText").textContent;
+document.getElementById("text0").innerHTML = "Hello " + x;
 }
  </script>
  <button onclick="myFunction()">Click me</button> 
-
 </body>
 </html>
