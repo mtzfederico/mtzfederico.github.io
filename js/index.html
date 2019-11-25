@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
 Name: <input type="text" id="myText" value="">
+ <p id="text0"></p>
 <script>
 myFunction(){
 document.getElementById("text0").innerHTML = "Hello " + myText;
@@ -11,6 +13,5 @@ document.getElementById("text0").innerHTML = "Hello " + myText;
  </script>
  <button onclick="myFunction()">Click me</button> 
 
-<p id="text0"></p>
 </body>
 </html>
