@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- https://html-online.com/articles/get-url-parameters-javascript/ -->
+<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<script>
+  function getUrlVars() {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+          vars[key] = value;
+      });
+      return vars;
+  }
+
+  function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}
+
+</script>
+<button onclick="document.getElementById('demo').innerHTML = getUrlParam('text','Add ?text=SomeText to the url')">Click me</button>
+<p id="demo"></p>
+</body>
+</html>
