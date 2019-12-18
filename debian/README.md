@@ -1,6 +1,6 @@
 To add this repository to a linux os add the folowing to `/etc/apt/sources.list`
 ```
-deb [trusted=yes] http://gh.fedemtz66.tech/debian ./
+deb [trusted=yes] https://gh.fedemtz66.tech/debian ./
 ```
 
 
