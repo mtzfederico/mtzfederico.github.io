@@ -1,11 +1,12 @@
+
 /* Light mode */
 @media (prefers-color-scheme: light) {
     body {
         background-color: white;
         color: black;
-        font-family: 'Lexend Deca', monospace, 'Ubuntu Mono';
+        font-family:  'Consolas', 'Lexend Deca', 'Ubuntu Mono';
         font-size: 24px;
-        //text-shadow: 2px 2px 2px #aaa;
+        text-shadow: 2px 2px 2px #aaa;
     }
 }
 
@@ -14,7 +15,7 @@
     body {
         background-color: black;
         color: white;
-        font-family: 'Lexend Deca', monospace, 'Ubuntu Mono';
+        font-family:  'Consolas', 'Lexend Deca', 'Ubuntu Mono';
   	font-size: 24px;
-  	//text-shadow: 2px 2px 2px #aaa;
+  	text-shadow: 2px 2px 2px #aaa;
     }
