@@ -1,0 +1,17 @@
+{
+  "clientid": 001, 
+  "orders": }
+  "order1": {"name": "Example 1", "orderid": 0001}, 
+  "order2": {"name": "Example 2", "orderid": 0002}
+  }
+}
+
+{
+"name": "John",
+"age": 30,
+"married": true,
+"divorced": false,
+"children": ["Ann","Billy"],
+"pets": null,
+"cars": [{"model": "BMW 230", "mpg": 27.5}, {"model": "Ford Edge", "mpg": 24.1}]
+}
