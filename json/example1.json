@@ -1,8 +1,8 @@
 {
  "cientid": "001",
- "orders": [
+ "orders": {
     "order1": [{"name": "Example 1", "orderid": 0001}], 
     "order2": [{"name": "Example 2", "orderid": 0002}],
     "order3": [{"name": "Example 3", "orderid": 0003}], 
- ], 
+ }, 
 }
