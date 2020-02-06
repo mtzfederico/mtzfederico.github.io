@@ -1,6 +1,6 @@
 {
 "cientid": "001",
-"NumberOfOrders": 3
+"NumberOfOrders": "3"
 "orders": [
     {
       "name": "Example 1",
