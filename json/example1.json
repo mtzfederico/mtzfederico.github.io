@@ -1,9 +1,8 @@
 {
-"cientid": "gRf7%3W^g54f!u31",
-"NumberOfOrders": 3, 
+"cientid": "gf&Y1ga^8983Gj@",
+ NumberOfOrders: 3, 
 "orders": [
-    "orderNumber": 1,
-    "values":{
+    {
       "name": "Example 1",
       "id": 202001
     },
