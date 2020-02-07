@@ -1,4 +1,5 @@
-#/uwr/bin/env python3
+#!/usr/bin/env python3
+
 #https://www.powercms.in/blog/how-get-json-data-remote-url-python-script
 
 import urllib, json
