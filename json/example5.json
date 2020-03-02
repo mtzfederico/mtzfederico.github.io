@@ -1,8 +1,5 @@
 {
 "clientid": "gf&Y1ga^8983Gj@",
- "ordersList": "Example 1, Example 2, Example 3", 
- "Example 1": "202001",
- "Example 2": "202002", 
- "Example 3": "202003",
- "Example 4": null 
+ "orderids": "202001, 202002, 202003",
+ "orders": "Example 1, Example 2, Example 3" 
 }
