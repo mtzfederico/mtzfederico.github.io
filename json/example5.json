@@ -1,5 +1,5 @@
 {
 "clientid": "gf&Y1ga^8983Gj@",
- "orderids": "202001, 202002, 202003",
- "orders": ["Example 1", "Example 2", "Example 3"] 
+ "orderids": ["202001", "202002", "202003"],
+ "orders": "Example 1, Example 2, Example 3" 
 }
