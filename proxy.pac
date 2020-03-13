@@ -1,3 +1,3 @@
 function FindProxyForURL(url, host) {
-      return "SOCKS macbook-pro.local:9050";
+      return "SOCKS 10.0.0.2:9050";
 }
