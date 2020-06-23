@@ -1,1 +1,1 @@
-{"stores": [{"id": 101, "name": "Store 1", "type": "Fast Food"}, {"id": 102, "name": "Store 2", "type": "Vegan"}, {"id": 103, "name": "Store 3", "type": "Convinience Store"}, {"id": 104, "name": "Store 4", "type": "Pharmacy"}]}
+{"stores": [{"id": 101, "name": "Chick-Fil-A", "type": "Fast Food", "iconURL": "http://mtzfederico.com/appResources/Chick-Fil-A-50points.png"}, {"id": 102, "name": "Store 2", "type": "Vegan", "iconURL": ""}, {"id": 103, "name": "Store 3", "type": "Convinience Store", "iconURL": ""}, {"id": 104, "name": "Store 4", "type": "Pharmacy", "iconURL": ""}]}
