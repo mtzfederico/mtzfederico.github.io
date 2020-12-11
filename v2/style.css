@@ -82,13 +82,13 @@ a:hover:after {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: yellow;
+    background-color: #696969;
   }
 
   .actualBOX {
     font-size:0px;
     width:100%;
-    background:#ffffff;
+    background: #e8e8e8;
   }
 
   h2 {
