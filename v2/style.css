@@ -1,9 +1,13 @@
+:root {
+    color-scheme: light dark;
+}
+
 body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
 img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
 p { display: block; margin: 13px 0; }
 
-row {
+ul {
   margin: 150px auto 0;
   padding: 0;
   list-style: none;
@@ -12,7 +16,7 @@ row {
   text-align: center;
 }
 
-item {
+li {
   display: table-cell;
   position: relative;
   padding: 15px 0;
@@ -48,7 +52,7 @@ a:hover:after {
 }
 
 @media screen and (max-height: 300px) {
-	row {
+	ul {
 		margin-top: 40px;
 	}
 }
@@ -66,18 +70,8 @@ a:hover:after {
     background:#ffffff;
   }
 
-  h2 {
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #4F545C;
-    letter-spacing: 0.27px;
-    text-align: center;
-  }
 
 }
-
-
 
 
 @media (prefers-color-scheme: dark) {
@@ -91,17 +85,16 @@ a:hover:after {
     background: #e8e8e8;
   }
 
-  h2 {
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #4F545C;
-    letter-spacing: 0.27px;
-    text-align: center;
-  }
 }
 
-
+h2 {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #4F545C;
+  letter-spacing: 0.27px;
+  text-align: center;
+}
 
 .table1 {
   font-size:0px;
@@ -110,17 +103,15 @@ a:hover:after {
 }
 
 
-
-
-
+/*
 .titleDIV {
   cursor:auto;
   color:#737F8D;
   font-family:Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
   font-size:16px;
   line-height:24px;
-  text-align:left;
-}
+  text-align:center;
+}*/
 
 
 .arroundTable {
