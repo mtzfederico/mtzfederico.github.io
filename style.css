@@ -1,20 +1,135 @@
-/* Light mode */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: #393131;
-        font-family:  'Ubuntu Mono', 'Consolas', 'Roboto Mono';
-        font-size: 24px;
-        text-shadow: 2px 2px 2px #aaa;
-    }
+:root {
+    color-scheme: light dark;
 }
 
-/* Dark mode */
+body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+p { display: block; margin: 13px 0; }
+
+ul {
+  margin: 15px auto 0; /* was 150px */
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+
+li {
+  display: table-cell;
+  position: relative;
+  padding: 15px 0;
+}
+
+a {
+  color: #1EB0F4;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 12px 20px 15px;
+  position: relative;
+}
+
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: red;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f0f0f0;
+  }
+
+  .actualBOX {
+    font-size:0px;
+    width:100%;
+    background:#ffffff;
+  }
+
+  .boxShadow {
+    box-shadow:0px 2px 50px rgba(0,0,0,0.1);
+  }
+}
+
+
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-        color: white;
-        font-family:  'Ubuntu Mono', 'Consolas', 'Roboto Mono';
-  	font-size: 24px;
-  	text-shadow: 2px 2px 2px #aaa;
-    }
+  body {
+    background-color: #696969;
+  }
+
+  .actualBOX {
+    font-size:0px;
+    width:100%;
+    background: #e8e8e8;
+  }
+
+  .boxShadow {
+    box-shadow:0px 2px 50px rgba(255,255,255,0.1);
+  }
+}
+
+h1 {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #4F545C;
+  letter-spacing: 0.27px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-weight: 250;
+  font-size: 25px;
+  color: #4F545C;
+  letter-spacing: 0.27px;
+  text-align: center;
+}
+
+.table1 {
+  font-size:0px;
+  width:100%;
+  background:transparent;
+}
+
+
+/*
+.titleDIV {
+  cursor:auto;
+  color:#737F8D;
+  font-family:Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size:16px;
+  line-height:24px;
+  text-align:center;
+}*/
+
+
+.arroundTable {
+  margin:0px auto;
+  max-width:640px;
+  background:transparent;
+}
