@@ -57,8 +57,6 @@ a:hover:after {
 	}
 }
 
-
-
 @media (prefers-color-scheme: light) {
   body {
     background-color: #f0f0f0;
@@ -74,7 +72,6 @@ a:hover:after {
     box-shadow:0px 2px 50px rgba(0,0,0,0.1);
   }
 }
-
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -116,6 +113,21 @@ h2 {
   background:transparent;
 }
 
+.footer {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-weight: 250;
+  font-size: 16px;
+  color: #4F545C;
+  letter-spacing: 0.27px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 28px;
+  /* background-color: inherit;
+  background-color: red; */
+}
 
 /*
 .titleDIV {
@@ -126,7 +138,6 @@ h2 {
   line-height:24px;
   text-align:center;
 }*/
-
 
 .arroundTable {
   margin:0px auto;
